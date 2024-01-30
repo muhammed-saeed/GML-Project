@@ -1,7 +1,7 @@
 import torch
 
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-# Unity env executable path
+# Unity env executable path, and make sure the no_graphic=True 
 UNITY_EXE_PATH = '/local/musaeed/Tennis_Linux/Tennis.x86_64'
 # Environment Goal
 GOAL = 0.51

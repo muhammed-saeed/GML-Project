@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import torch
 from replay_buffer import ReplayBuffer
 from ddpg import DDPG

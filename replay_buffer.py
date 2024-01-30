@@ -1,6 +1,3 @@
-# Taken from https://github.com/openai/baselines/blob/master/baselines/deepq/replay_buffer.py
-# Thanks to https://openai.com/ for this prioritized replay buffer class.
-
 import numpy as np
 import random
 from collections import namedtuple, deque
@@ -46,3 +43,8 @@ class ReplayBuffer():
     def __len__(self):
         """Return the current size of internal memory."""
         return len(self.memory)
+
+
+
+# Taken from https://github.com/openai/baselines/blob/master/baselines/deepq/replay_buffer.py
+# Thanks to https://openai.com/ for this prioritized replay buffer class.
